@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
-  get 'static_pages/home'
+  get 'static_pages/home', :as => 'home_page'
 
-  get 'static_pages/art'
+  get 'static_pages/art', :as => 'art_page'
 
   root 'static_pages#home'
 
