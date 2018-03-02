@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'static_pages/home'
+
+  get 'static_pages/art'
+
   get 'welcome/index'
 
   root 'welcome#index'
