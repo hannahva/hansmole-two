@@ -1,0 +1,34 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 5vh;
+  font-weight: 100;
+
+  h1 {
+    font-size: 10vh;
+    padding: 3vh 0 0 4vw;
+  }
+
+  p {
+    line-height: normal;
+    padding: 1vh 4vw 0 4vw;
+  }
+}
+
+a {
+  color: #fcfcfc;
+  font-size: 6vh;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ede6d0;
+}
+
+.container.homepage {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
